@@ -46,3 +46,39 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+    height: 3rem;
+
+    .nav {
+      display: none;
+    }
+
+    .settingsContainer {
+      flex-direction: row; 
+      gap: 1rem;
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    justify-content: flex-end;
+    height: auto;
+    margin-top: 1rem;
+    padding-right: 2rem;
+
+    .nav {
+      display: none;
+    }
+
+    .settingsContainer {
+      flex-direction: row; 
+      gap: 2.5rem;
+      margin-right: 0;
+    }
+  }
+}
